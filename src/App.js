@@ -12,7 +12,6 @@ function App() {
   return (
     <AuthContext.Provider value={{ user, setUser }}>
       <div className="App">
-        <header className="App-header">Chitty Chat</header>
         <section>{user ? <ChatRoom /> : <SignIn />}</section>
       </div>
     </AuthContext.Provider>

@@ -1,3 +1,4 @@
+import { getAuth } from "firebase/auth";
 import { initializeApp } from "firebase/app";
 import {
   getFirestore,
@@ -8,7 +9,6 @@ import {
   addDoc,
   serverTimestamp,
 } from "@firebase/firestore";
-import { getAuth } from "firebase/auth";
 
 import { useCollection } from "react-firebase-hooks/firestore";
 

@@ -60,6 +60,8 @@ form {
   max-width: 728px;
   display: flex;
   font-size: 1.5rem;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 form button {
@@ -123,28 +125,6 @@ p {
   text-align: center;
 }
 
-.message {
-  display: flex;
-  align-items: center;
-}
-
-.sent {
-  flex-direction: row-reverse;
-}
-
-.sent p {
-  color: white;
-  background: #0b93f6;
-  align-self: flex-end;
-}
-.received p {
-  background: #e5e5ea;
-  color: black;
-}
-
-img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin: 2px 5px;
+.profile-image {
+  /* margin-top: 10vh; */
 }
