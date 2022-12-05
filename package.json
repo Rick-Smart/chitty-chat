@@ -23,7 +23,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
+      "chitty-Chat",
       "react-app/jest"
     ]
   },
@@ -39,7 +39,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "A real time chat app using firebase V9 hosted on Heroku, pushed from git, secured by google auth",
   "main": "index.js",
   "devDependencies": {},
   "author": "",
