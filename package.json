@@ -23,7 +23,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "chitty-Chat",
+      "react-app",
       "react-app/jest"
     ]
   },
