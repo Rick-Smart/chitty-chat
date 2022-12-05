@@ -42,6 +42,6 @@
   "description": "A real time chat app using firebase V9 hosted on Heroku, pushed from git, secured by google auth",
   "main": "index.js",
   "devDependencies": {},
-  "author": "",
+  "author": "Rick Smart",
   "license": "ISC"
 }
